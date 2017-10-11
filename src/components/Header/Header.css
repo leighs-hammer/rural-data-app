@@ -1,0 +1,11 @@
+header {
+  background-image: url("header.png");
+  background-position: center;
+  background-size: cover;
+  min-height: 40rem;
+  color: #f1f1f1;
+  padding-top: 12rem;
+  padding-left: 2rem;
+  padding-right: 2rem; }
+  header p {
+    max-width: 60rem; }
