@@ -1,0 +1,92 @@
+// Layout
+.thirty {
+	display: inline-block;
+	vertical-align: top;
+	width: 39%;
+	text-align: left;
+	padding: 1rem;
+}
+.seventy {
+	display: inline-block;
+	vertical-align: top;
+	width: 59%;
+	text-align: left;
+	padding: 1rem;
+}
+.exampleBlock {
+	width: 100%;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	text-align: center;
+	padding-top: 2rem;
+	padding-bottom: 5rem;
+	background-color: #f1f1f1;
+	h1 {
+		margin-top: 3rem;
+	}
+	h3 {
+		font-size: 2rem;
+		line-height: calc(3rem * 1.5);
+		margin-top: 3rem;
+	}
+	p {
+		margin-bottom: 2rem;
+		strong {
+			font-weight: bold !important;
+			color: #0294A5;
+		}
+	}
+	select {
+
+		line-height: 3rem;
+		border: 1px solid rgb(12, 20, 51);
+		padding-left: 1rem;
+		padding-right: 3rem;
+		font-size: 1.6rem;
+		&:focus {
+			outline: none;
+		}
+	}
+}
+
+// Code Styling
+pre {
+	background-color: rgb(12, 20, 51);
+	padding: 2rem;
+	border-radius: 0.5rem;
+	color: #A79C93;
+	font-size: 1.4rem;
+	.key {
+		color: rgba(#fff, 0.7);
+		margin-right: 1rem;
+		font-size: 1.4rem;
+	}
+	.number {
+		color: #f9cf00
+	}
+	.string {
+		color: #0294A5
+	}
+	.boolean {
+		color: #4484cE;
+	}
+	.number, .boolean, .string {
+		margin-left: 1rem;
+	}
+}
+.codeInline {
+	padding: 1rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	background-color: rgb(34, 38, 54);
+	margin-left: 1rem;
+	font-weight: bold;
+	color: #f76c6c;
+	border-radius: 0.3rem;
+	font-size: 1.4rem;
+	.valInline {
+		color: #f9cf00;
+		margin-left: 0.4rem;
+		margin-right: 0.4rem;
+	}
+}
